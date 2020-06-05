@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DemoTest</string>
+    <string name="ph_number_msg">Enter your phone number, we will send a verification code to your phone number</string>
+    <string name="country_code">Country Code</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="submit">Submit</string>
+    <string name="enter_the_6_digit_code_sent_to_your_phone_number">Enter the 6-digit code sent to your phone number</string>
+    <string name="sms_verification_code">SMS Verification Code</string>
+    <string name="resend_sms_code">Resend SMS Code</string>
+    <string name="google_sign_in">Google Sign-in</string>
+    <string name="email_address">Email Address</string>
+    <string name="email_msg">Please enter your email address, we will send a verification code to this email address to verify.</string>
+    <string name="email_verification_code">Email Verification Code</string>
+    <string name="resend_verification_code">Resend verification code</string>
+</resources>
