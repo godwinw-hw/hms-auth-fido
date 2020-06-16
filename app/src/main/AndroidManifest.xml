@@ -19,6 +19,15 @@
         </activity>
         <activity android:name=".EmailAddressActivity" />
         <activity android:name=".VerifyCodeActivity" />
+        <activity android:name=".PhoneNumberActivity" />
+        <activity android:name=".SMSVerifyActivity" />
+
+<!--        <receiver android:name=".SMSVerifyActivity$SMSBroadcastReceiver">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.huawei.hms.auth.api.phone.SMS_RETRIEVED"/>-->
+<!--                <category android:name="com.huawei.hms.auth.api.phone.SMS_RETRIEVED"/>-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
     </application>
 
 </manifest>

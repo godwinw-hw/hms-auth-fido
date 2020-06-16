@@ -12,4 +12,5 @@
     <string name="email_msg">Please enter your email address, we will send a verification code to this email address to verify.</string>
     <string name="email_verification_code">Email Verification Code</string>
     <string name="resend_verification_code">Resend verification code</string>
+    <string name="biometric_auth_fido">BIometrich Auth</string>
 </resources>

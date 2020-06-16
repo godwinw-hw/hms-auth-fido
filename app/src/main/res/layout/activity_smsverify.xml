@@ -4,34 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VerifyCodeActivity">
+    tools:context=".SMSVerifyActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Enter the 6 digit verification code sent to your email address"
+        android:text="@string/enter_the_6_digit_code_sent_to_your_phone_number"
         android:textSize="14sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/resend"
-        android:layout_width
-
-            ="wrap_content"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="@string/resend_verification_code"
+        android:text="@string/resend_sms_code"
         android:textSize="14sp"
         android:textColor="@android:color/holo_blue_light"
         app:layout_constraintTop_toBottomOf="@id/textView"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:onClick="resendCode"/>
+        android:onClick="resendSMSCode"/>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/verification_code"
+        android:id="@+id/sms_code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="4"
@@ -40,7 +38,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/resend"
         app:layout_constraintRight_toRightOf="parent"
-        android:hint="@string/email_verification_code">
+        android:hint="@string/sms_verification_code">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -51,7 +49,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="submitVerificationCode"
+        android:onClick="submitSMSCode"
         android:padding="10dp"
         android:text="@string/submit"
         app:layout_constraintBottom_toBottomOf="parent"
