@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GoogleAuthActivity"></activity>
+        <activity android:name=".OneHopActivity"></activity>
+        <activity android:name=".GoogleAuthActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,13 +22,6 @@
         <activity android:name=".VerifyCodeActivity" />
         <activity android:name=".PhoneNumberActivity" />
         <activity android:name=".SMSVerifyActivity" />
-
-<!--        <receiver android:name=".SMSVerifyActivity$SMSBroadcastReceiver">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="com.huawei.hms.auth.api.phone.SMS_RETRIEVED"/>-->
-<!--                <category android:name="com.huawei.hms.auth.api.phone.SMS_RETRIEVED"/>-->
-<!--            </intent-filter>-->
-<!--        </receiver>-->
     </application>
 
 </manifest>
