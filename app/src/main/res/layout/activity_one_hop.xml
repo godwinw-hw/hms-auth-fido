@@ -6,4 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".OneHopActivity">
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_to_send"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Text to send" />
+    </com.google.android.material.textfield.TextInputLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
